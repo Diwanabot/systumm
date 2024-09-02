@@ -67,7 +67,7 @@ def stream_markup_timer(_, vidid, chat_id, played, dur):
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
        [
-            InlineKeyboardButton(text="𝙾𝚠𝚗𝚎𝚛", url="https://t.me/legend_of_all_groups"),
+            InlineKeyboardButton(text="𝙾𝚠𝚗𝚎𝚛", url="https://t.me/Friend_Forever_Chats"),
         InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
     return buttons
@@ -83,7 +83,7 @@ def stream_markup(_, videoid, chat_id):
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
        [
-            InlineKeyboardButton(text="𝙾𝚠𝚗𝚎𝚛", url="https://t.me/legend_of_all_groups"),
+            InlineKeyboardButton(text="𝙾𝚠𝚗𝚎𝚛", url="https://t.me/Friend_Forever_Chats"),
         InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
     return buttons
@@ -226,7 +226,7 @@ def stream_markup2(_, chat_id):
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
        [
-            InlineKeyboardButton(text="𝙾𝚠𝚗𝚎𝚛", url="https://t.me/legend_of_all_groups"),
+            InlineKeyboardButton(text="𝙾𝚠𝚗𝚎𝚛", url="https://t.me/Friend_Forever_Chats"),
         InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
     return buttons
