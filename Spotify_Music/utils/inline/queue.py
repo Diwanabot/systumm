@@ -72,10 +72,10 @@ def aq_markup(_, chat_id):
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
         [
-            InlineKeyboardButton(text="𝙾𝚠𝚗𝚎𝚛", url="https://t.me/legend_of_all_groups"),
+            InlineKeyboardButton(text="𝙾𝚠𝚗𝚎𝚛", url="https://t.me/Friend_Forever_Chats"),
             InlineKeyboardButton(
                 text="๏ ᴍᴏʀᴇ ๏",
-                url="https://t.me/legend_of_all_groups",
+                url="https://t.me/Friend_Forever_Chats",
             ),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
@@ -110,10 +110,10 @@ def queuemarkup(_, vidid, chat_id):
             ),
         ],
         [
-            InlineKeyboardButton(text="𝙾𝚠𝚗𝚎𝚛", url="https://t.me/legend_of_all_groups"),
+            InlineKeyboardButton(text="𝙾𝚠𝚗𝚎𝚛", url="https://t.me/Friend_Forever_Chats"),
             InlineKeyboardButton(
                 text="๏ ᴍᴏʀᴇ ๏",
-                url="https://t.me/legend_of_all_groups",
+                url="https://t.me/Friend_Forever_Chats",
             ),
         ],
     ]
